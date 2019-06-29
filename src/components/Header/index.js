@@ -32,7 +32,7 @@ class Header extends Component {
             <div className="p-1">
                 <nav className="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">
                     <a className="navbar-brand" href="/">
-                        <img src={img_logo} alt="logo" />
+                        <img src={img_logo} style={{width: '80%'}} alt="logo" />
                     </a>
                     <button onClick={this.toggleNavbar} className={`${classCollapseTwo}`}
                         type="button" data-toggle="collapse"
