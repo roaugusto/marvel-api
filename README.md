@@ -1,4 +1,14 @@
+## Projeto desenvolvido com api da Marvel e React.js
+
+Para obter suas próprias chaves de aceso à api, acesse https://developer.marvel.com/documentation/getting_started
+
+## Exemplo da aplicação
+
+https://marvel-api-reactjs.herokuapp.com/
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
