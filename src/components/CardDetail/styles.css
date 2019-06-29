@@ -1,0 +1,25 @@
+.card-detail {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 10px;
+}
+
+.thumbnail-img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .name {
+    margin-bottom: 30px;
+}
+
+.description {
+    margin-bottom: 30px;
+} */

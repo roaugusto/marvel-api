@@ -1,0 +1,45 @@
+.card-detail {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 10px;
+}
+
+.thumbnail-img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.thumbnail-comic {
+    max-width: 100px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;    
+}
+
+
+.description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-comic {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-description {
+    display: flex;
+    flex-direction: row;
+}
+
+/* .name {
+    margin-bottom: 30px;
+}
+
+.description {
+    margin-bottom: 30px;
+} */
