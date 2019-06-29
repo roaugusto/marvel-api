@@ -21,7 +21,7 @@ class Home extends Component {
       public_key: this.state.public_key,
       private_key: this.state.private_key
     }
-    
+
     await this.props.onGetCharacters(1, keys)
     await this.props.onSetKeys(this.state.public_key, this.state.private_key)
 
@@ -36,6 +36,18 @@ class Home extends Component {
     return (
       <div className="img-background">
         <div className="box">
+          <div className="title-home text-center"> Marvel API com React.js</div>
+
+          <div className='title-desc text-center'>
+            <div>Para obter sua próprias chaves, acesse: </div>            
+          </div>
+          <div className='title-desc2 text-center'>
+            <a target="_blank"
+              rel="noopener noreferrer"
+              href='https://developer.marvel.com/documentation/getting_started'> https://developer.marvel.com
+            </a>
+          </div>
+
           <div className="card">
             <div className="card-header text-center">
               Dados de acesso
